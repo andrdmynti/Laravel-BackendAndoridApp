@@ -20,9 +20,13 @@ Route::get('/', function () {
 });
 
 
-// Route::get('index', function () {
-//     return view('index');
-// });
+Route::get('profile', function () {
+    return view('index');
+});
+
+Route::get('awal', function () {
+    return view('awal');
+});
 
 Auth::routes();
 
